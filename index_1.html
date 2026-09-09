@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bean &amp; Brew Coffee House</title>
+<meta name="description" content="Bean &amp; Brew Coffee House — demo website. Speciality coffee, fresh bakes and a quiet place to work." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<p class="demo-banner">Demo website — Bean &amp; Brew Coffee House is a fictional business created for a college project.</p>
+
+<header id="site-header">
+  <nav class="navbar">
+    <a href="#home" class="brand">Bean &amp; Brew</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label"><span></span><span></span><span></span></label>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow">Bengaluru &middot; Since 2019</p>
+      <h1>Slow coffee,<br />in a fast city.</h1>
+      <p class="hero-sub">
+        Single-origin beans roasted every week, bakes out of the oven by 7 am,
+        and a corner table that nobody will rush you from.
+      </p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">See the menu</a>
+        <a href="#contact" class="btn btn-ghost">Book a table</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="strip">
+    <div class="container strip-grid">
+      <div><strong>7 am &ndash; 10 pm</strong><span>Open every day</span></div>
+      <div><strong>Free Wi-Fi</strong><span>Power at every table</span></div>
+      <div><strong>Weekly roast</strong><span>Beans sold by the bag</span></div>
+      <div><strong>Outdoor seating</strong><span>Pet friendly</span></div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div>
+        <p class="section-eyebrow">About us</p>
+        <h2>A neighbourhood coffee house</h2>
+        <p class="lead">
+          We started in 2019 with one espresso machine and a very patient landlord.
+        </p>
+        <p>
+          Everything is made in-house: we roast in small batches, bake each morning,
+          and keep the menu short so every item is worth ordering. Mornings are for
+          people who work here; evenings are for people who linger. Both are welcome.
+        </p>
+      </div>
+      <ul class="facts">
+        <li><span>Founded</span><strong>2019</strong></li>
+        <li><span>Roast</span><strong>Small-batch, weekly</strong></li>
+        <li><span>Seats</span><strong>34 indoor, 12 outdoor</strong></li>
+        <li><span>Best for</span><strong>Working &amp; catching up</strong></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="menu" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow">Menu</p>
+      <h2>What we serve</h2>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <h3>Espresso bar</h3>
+          <ul class="price-list">
+            <li><span>Espresso</span><b>&#8377;120</b></li>
+            <li><span>Cortado</span><b>&#8377;160</b></li>
+            <li><span>Flat white</span><b>&#8377;190</b></li>
+            <li><span>Cappuccino</span><b>&#8377;190</b></li>
+            <li><span>Iced latte</span><b>&#8377;210</b></li>
+          </ul>
+        </article>
+
+        <article class="menu-card">
+          <h3>Brew bar</h3>
+          <ul class="price-list">
+            <li><span>Pour-over (V60)</span><b>&#8377;230</b></li>
+            <li><span>Cold brew</span><b>&#8377;220</b></li>
+            <li><span>Filter coffee</span><b>&#8377;110</b></li>
+            <li><span>Masala chai</span><b>&#8377;100</b></li>
+            <li><span>Bean bag, 250g</span><b>&#8377;650</b></li>
+          </ul>
+        </article>
+
+        <article class="menu-card">
+          <h3>Kitchen</h3>
+          <ul class="price-list">
+            <li><span>Butter croissant</span><b>&#8377;180</b></li>
+            <li><span>Banana bread</span><b>&#8377;150</b></li>
+            <li><span>Cheese toastie</span><b>&#8377;260</b></li>
+            <li><span>Veg club sandwich</span><b>&#8377;290</b></li>
+            <li><span>Brownie</span><b>&#8377;170</b></li>
+          </ul>
+        </article>
+      </div>
+      <p class="note">Prices are indicative and part of this demo project.</p>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <div class="container">
+      <p class="section-eyebrow">Gallery</p>
+      <h2>Inside the café</h2>
+      <div class="gallery">
+        <figure class="tile tile-1"><figcaption>The espresso bar</figcaption></figure>
+        <figure class="tile tile-2"><figcaption>Morning bakes</figcaption></figure>
+        <figure class="tile tile-3"><figcaption>Corner tables</figcaption></figure>
+        <figure class="tile tile-4"><figcaption>Roasting room</figcaption></figure>
+      </div>
+      <p class="note">Placeholder tiles — real photographs would replace these before launch.</p>
+    </div>
+  </section>
+
+  <section id="visit" class="section section-alt">
+    <div class="container visit-grid">
+      <div>
+        <p class="section-eyebrow">Visit</p>
+        <h2>Find us</h2>
+        <ul class="facts">
+          <li><span>Address</span><strong>14 Residency Road, Bengaluru 560025</strong></li>
+          <li><span>Hours</span><strong>7:00 am &ndash; 10:00 pm, daily</strong></li>
+          <li><span>Phone</span><strong>+91 90000 00000</strong></li>
+          <li><span>Email</span><strong>hello@beanandbrew.example</strong></li>
+        </ul>
+      </div>
+      <div class="map-box">
+        <div class="map-pin">&#9679;</div>
+        <p>Residency Road, near the MG Road end</p>
+        <span class="note">Map placeholder</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-dark">
+    <div class="container contact-grid">
+      <div>
+        <p class="section-eyebrow light">Contact</p>
+        <h2 class="light">Book a table or say hello</h2>
+        <p class="contact-lead">
+          Tell us when you're coming and how many of you there are. We reply the same day.
+        </p>
+        <p class="contact-alt">
+          Prefer to call? <strong>+91 90000 00000</strong>
+        </p>
+      </div>
+
+      <form id="booking-form" class="form" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your name" />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" />
+        </div>
+        <div class="row">
+          <div class="field">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" />
+          </div>
+          <div class="field">
+            <label for="guests">Guests</label>
+            <select id="guests" name="guests">
+              <option>1</option><option>2</option><option selected>3</option>
+              <option>4</option><option>5+</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="3" placeholder="Anything we should know?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send request</button>
+        <p id="form-status" class="form-status" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; 2026 Bean &amp; Brew Coffee House — demo project</p>
+    <p>14 Residency Road, Bengaluru</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
